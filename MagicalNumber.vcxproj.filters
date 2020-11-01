@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\InGame">
+      <UniqueIdentifier>{cfe3ee2f-ea00-4e10-ba25-b09fb1d624d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\InGame">
+      <UniqueIdentifier>{32375b83-4aa6-4260-9f37-f7862e176153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DeckSelect">
+      <UniqueIdentifier>{239c745f-f2a1-4108-85b7-06735e35a499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DeckSelect">
+      <UniqueIdentifier>{7e6978f9-7eca-426d-9e99-d17272bdec7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Title">
+      <UniqueIdentifier>{10040f4b-df10-44c3-a2b3-e148e78c5c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Title">
+      <UniqueIdentifier>{819ec90a-7f89-4a0c-bee2-0ce752154cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\use">
+      <UniqueIdentifier>{63b22f30-d592-4716-a010-aa8e2cf4b810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\use">
+      <UniqueIdentifier>{7d8cbde7-2a72-41f4-9d54-735291d8d1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Attack">
+      <UniqueIdentifier>{60aa7ea7-8f3c-4f5f-ac04-05e777f4ed54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Attack">
+      <UniqueIdentifier>{36d1d080-42a1-4763-b181-9a9ca4185b13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawNumber.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBace.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceServer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Sign.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Formula.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicNumber.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckSelect.cpp">
+      <Filter>ソース ファイル\DeckSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="ChoiceCard.cpp">
+      <Filter>ソース ファイル\DeckSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCard.cpp">
+      <Filter>ソース ファイル\DeckSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Answer.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleCharacter.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>ソース ファイル\use</Filter>
+    </ClCompile>
+    <ClCompile Include="Tween.cpp">
+      <Filter>ソース ファイル\use</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>ソース ファイル\use</Filter>
+    </ClCompile>
+    <ClCompile Include="MTRandom.cpp">
+      <Filter>ソース ファイル\use</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMenu.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuString.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSelect.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソース ファイル\use</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameBG.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Comb.cpp">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckSelectBG.cpp">
+      <Filter>ソース ファイル\DeckSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="CutIn.cpp">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\use</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnNumber.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>ソース ファイル\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackEffect.cpp">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrawNumber.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBace.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceServer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sign.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Formula.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicNumber.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ChoiceCard.h">
+      <Filter>ヘッダー ファイル\DeckSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckSelect.h">
+      <Filter>ヘッダー ファイル\DeckSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCard.h">
+      <Filter>ヘッダー ファイル\DeckSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Answer.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleCharacter.h">
+      <Filter>ヘッダー ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>ヘッダー ファイル\use</Filter>
+    </ClInclude>
+    <ClInclude Include="MTRandom.h">
+      <Filter>ヘッダー ファイル\use</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween.h">
+      <Filter>ヘッダー ファイル\use</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>ヘッダー ファイル\use</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>ヘッダー ファイル\use</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMenu.h">
+      <Filter>ヘッダー ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuString.h">
+      <Filter>ヘッダー ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSelect.h">
+      <Filter>ヘッダー ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>ヘッダー ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ヘッダー ファイル\use</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameBG.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Comb.h">
+      <Filter>ヘッダー ファイル\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckSelectBG.h">
+      <Filter>ヘッダー ファイル\DeckSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="CutIn.h">
+      <Filter>ヘッダー ファイル\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnNumber.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>ヘッダー ファイル\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>ヘッダー ファイル\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackEffect.h">
+      <Filter>ヘッダー ファイル\Attack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
