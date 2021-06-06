@@ -28,7 +28,7 @@ void Formula::Draw() {
 	}
 }
 
-bool Formula::IsAdd(Select* select) {
+bool Formula::IsAdd(Select* select) {  //式エリアに足せるか
 
 	if (_vFormula.size() == 0) {
 		
@@ -72,7 +72,7 @@ bool Formula::IsAdd(Select* select) {
 				}
 			}
 			else {
-				if (IsCard(select)) {   //バグ　orだと失敗
+				if (IsCard(select)) {   //バグ orだと失敗したのでelse ifに
 					return true;
 				}
 
@@ -242,7 +242,7 @@ bool Formula::Convert() {
 							break;
 						}
 					}
-					_vReversePolishNotation.push_back(pop);   //取得したものを入れる
+					_vReversePolishNotation.push_back(pop); 
 				}
 			}
 			else if (stack.empty() || IsBeginBracket(sign)) {
